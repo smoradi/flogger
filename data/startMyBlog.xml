@@ -1,0 +1,53 @@
+<dataset>
+<post>
+  <title>Goodbay Blogger, Hallo Flogger</title>
+  <date>2012-03-09</date>
+  <content>
+    <heading1>Why goodbay blogger.com ?</heading1>
+    <paragraph>
+
+Have you tried to make a backup from blogger.com ? I've tried in February 2012 and the
+result was not pleasent. Mainly because of two resoan, first (and more importantly)the
+output was not in clear format(not readable by hum-n). second was not  important.
+
+So, I've decide to build my own blog and first future will be ability to export blog
+in readable format. For example all texts could appear as you are seeing it now! :-)
+
+    </paragraph>
+    <heading1>Why hallo flogger ?</heading1>
+    <paragraph>
+
+Honestly I didn't search enought to find another Blogger like websites in the web, in-
+stead I've thought about what cool feature a bolg could have for programmers and read-
+ers ?
+Here is my list for readers :
+
+  * ability to download hole blog with one click and see texts in their own machines.
+  * ability to select a theme for reading, for example plain text, xml, html, etc.
+  * not seeing any ads or distraction from others existing things in the web.
+
+Here is my list for programmers :
+
+  * ability to have hole blog under source version controls (e.g. svn) and by each co-
+    mmit, blog update automatically.
+  * ability to post to the web from command line console (not using any web browser).
+  * working with open source, clean code wrritten blog software ...
+
+    <paragraph>
+    <heading2>What next ?</heading2>
+    <paragraph>
+
+Let's start with simplest available solution today, as we speak github.com is avaiable
+for hosting the source code for open source projects. heroku.com is avaiable for host-
+ing project with single free node. thoughtworks.com is available for offering neat op-
+en source tools (e.g. cruisecontrol.rb).
+
+I am thinking to make a project(flogger) in github.com and by help of thoughtworks to-
+ols, build a build pipeline (for automate deployment) and labblah687.heroku.com would
+be my future blog web address.
+
+let's do that ;-)
+    <paragraph>
+
+  </content>
+</post>
