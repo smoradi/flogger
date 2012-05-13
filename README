@@ -1,7 +1,32 @@
 
 This app is up and running in following web address:
-
 http://hollow-dusk-1801.herokuapp.com/
 
-This README file will imporve by passing the time, right now I feel sleepy, good night
-:-)
+Source code is avialable in following web address:
+https://github.com/smoradi/flogger
+
+or use one of these commands directly to get source code.
+
+$ git clone https://github.com/smoradi/flogger.git flogger
+$ git clone git://github.com/smoradi/flogger.git flogger
+
+To run this application locally run following commands in root of project
+
+$ mvn package           # My Maven version was 3.0.4
+$ export PORT=1199      # 1199 could be any number higher than 1000,
+$ java -cp target/classes:"target/dependency/*" HelloWorld
+
+Now enter http://localhost:1199 into address bar of your web browser.
+
+Currently there are two ways of accessing content of this blog.
+
+http://HOST/app/file?name=FILE_NAME
+http://HOST/data/FILE_NAME
+
+For example:
+http://localhost:1199/app/file?name=startMyBlog.xml
+http://localhost:1199/data/goingToMountain.html
+
+http://hollow-dusk-1801.herokuapp.com/app/file?name=startMyBlog.xml
+http://hollow-dusk-1801.herokuapp.com/data/goingToMountain.html
+
